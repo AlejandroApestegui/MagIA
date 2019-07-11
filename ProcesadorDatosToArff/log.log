@@ -1,0 +1,122 @@
+ENCUESTAS PROCESADAS => 2432509
+
+
+
+FRECUENCIA DE DATOS
+
+
+
+Edad
+
+DE 0 A 4 AÑOS => 58506
+DE 5 A 15 AÑOS => 253468
+DE 16 A 24 AÑOS => 265958
+DE 25 A 34 AÑOS => 368004
+DE 35 A 44 AÑOS => 372558
+DE 45 A 54 AÑOS => 316726
+DE 55 A 64 AÑOS => 261452
+DE 65 A 74 AÑOS => 290935
+DE 75 Y MÁS AÑOS => 244902
+
+Estudios
+
+PRIMARIOS Y SECUNDARIOS DE PRIMER CICLO => 1423514
+SECUNDARIOS DE SEGUNDO CICLO Y POST-SECUNDARIOS => 436953
+UNIVERSITARIOS => 313914
+
+Clase social
+
+CLASE I => 169898
+CLASE II => 210889
+CLASE III => 780880
+CLASE IVa => 681969
+CLASE IVb => 281566
+CLASE V => 275177
+CLASE VI => 24447
+NO CONSTA => 7683
+
+Trabajo
+
+OCUPADO => 1490166
+PARADO => 60387
+INACTIVO => 881956
+
+Municipio
+
+MENOR O IGUAL A 2.000 HABITANTES => 701440
+2.001 A 50.000 HABITANTES => 654132
+MÁS DE 50.000 HABITANTES => 1076937
+
+
+
+LOG DATOS CONSUMIDOS => 
+
+Tabla [nombre=EDAD X SEXO]
+clases : 
+Raw [sexo=1, clase=10, si=0, no=28124, siUsado=0, noUsado=28124]
+Raw [sexo=1, clase=11, si=0, no=132131, siUsado=0, noUsado=132131]
+Raw [sexo=1, clase=12, si=1933, no=134824, siUsado=1933, noUsado=134824]
+Raw [sexo=1, clase=13, si=2451, no=186582, siUsado=2451, noUsado=186582]
+Raw [sexo=1, clase=14, si=2932, no=186674, siUsado=2932, noUsado=186674]
+Raw [sexo=1, clase=15, si=4629, no=159467, siUsado=4629, noUsado=159467]
+Raw [sexo=1, clase=16, si=8227, no=122225, siUsado=8227, noUsado=122225]
+Raw [sexo=1, clase=17, si=5669, no=126741, siUsado=5669, noUsado=126741]
+Raw [sexo=1, clase=18, si=4164, no=97089, siUsado=4164, noUsado=97089]
+Raw [sexo=2, clase=10, si=0, no=30382, siUsado=0, noUsado=30382]
+Raw [sexo=2, clase=11, si=0, no=121337, siUsado=0, noUsado=121337]
+Raw [sexo=2, clase=12, si=488, no=128713, siUsado=488, noUsado=128713]
+Raw [sexo=2, clase=13, si=328, no=178643, siUsado=328, noUsado=178643]
+Raw [sexo=2, clase=14, si=1617, no=181335, siUsado=1617, noUsado=181335]
+Raw [sexo=2, clase=15, si=2715, no=149915, siUsado=2715, noUsado=149915]
+Raw [sexo=2, clase=16, si=3475, no=127525, siUsado=3475, noUsado=127525]
+Raw [sexo=2, clase=17, si=8064, no=150461, siUsado=8064, noUsado=150461]
+Raw [sexo=2, clase=18, si=6097, no=137552, siUsado=6097, noUsado=137552]
+
+Tabla [nombre=ESTUDIOS X SEXO]
+clases : 
+Raw [sexo=1, clase=20, si=8423, no=118456, siUsado=8423, noUsado=118456]
+Raw [sexo=1, clase=21, si=19078, no=705903, siUsado=19078, noUsado=705903]
+Raw [sexo=1, clase=22, si=0, no=203659, siUsado=0, noUsado=203659]
+Raw [sexo=1, clase=23, si=2504, no=145839, siUsado=2504, noUsado=145839]
+Raw [sexo=2, clase=20, si=2789, no=128460, siUsado=2789, noUsado=128460]
+Raw [sexo=2, clase=21, si=14421, no=684112, siUsado=14421, noUsado=684112]
+Raw [sexo=2, clase=22, si=2594, no=230700, siUsado=2594, noUsado=230700]
+Raw [sexo=2, clase=23, si=2980, no=162591, siUsado=2980, noUsado=162591]
+
+Tabla [nombre=CLASESOCIAL X SEXO]
+clases : 
+Raw [sexo=1, clase=30, si=1319, no=80597, siUsado=1319, noUsado=80597]
+Raw [sexo=1, clase=31, si=946, no=105309, siUsado=946, noUsado=105309]
+Raw [sexo=1, clase=32, si=7338, no=379770, siUsado=7338, noUsado=379770]
+Raw [sexo=1, clase=33, si=11197, no=325602, siUsado=11197, noUsado=325602]
+Raw [sexo=1, clase=34, si=3478, no=136088, siUsado=3478, noUsado=136088]
+Raw [sexo=1, clase=35, si=4826, no=134190, siUsado=4826, noUsado=134190]
+Raw [sexo=1, clase=36, si=491, no=9982, siUsado=491, noUsado=9982]
+Raw [sexo=1, clase=37, si=410, no=2319, siUsado=410, noUsado=2319]
+Raw [sexo=2, clase=30, si=1623, no=86359, siUsado=1623, noUsado=86359]
+Raw [sexo=2, clase=31, si=1232, no=103402, siUsado=1232, noUsado=103402]
+Raw [sexo=2, clase=32, si=7737, no=386035, siUsado=7737, noUsado=386035]
+Raw [sexo=2, clase=33, si=6079, no=339091, siUsado=6079, noUsado=339091]
+Raw [sexo=2, clase=34, si=2449, no=139551, siUsado=2449, noUsado=139551]
+Raw [sexo=2, clase=35, si=2440, no=133721, siUsado=2440, noUsado=133721]
+Raw [sexo=2, clase=36, si=1095, no=12879, siUsado=1095, noUsado=12879]
+Raw [sexo=2, clase=37, si=129, no=4825, siUsado=129, noUsado=4825]
+
+Tabla [nombre=TRABAJO X SEXO]
+clases : 
+Raw [sexo=1, clase=40, si=14449, no=738663, siUsado=14449, noUsado=738663]
+Raw [sexo=1, clase=41, si=1483, no=29467, siUsado=1483, noUsado=29467]
+Raw [sexo=1, clase=42, si=14073, no=405727, siUsado=14073, noUsado=405727]
+Raw [sexo=2, clase=40, si=6787, no=730267, siUsado=6787, noUsado=730267]
+Raw [sexo=2, clase=41, si=327, no=29110, siUsado=327, noUsado=29110]
+Raw [sexo=2, clase=42, si=15670, no=446486, siUsado=15670, noUsado=446486]
+
+Tabla [nombre=MUNICIPIO X SEXO]
+clases : 
+Raw [sexo=1, clase=50, si=7702, no=364025, siUsado=7702, noUsado=364025]
+Raw [sexo=1, clase=51, si=8603, no=310771, siUsado=8603, noUsado=310771]
+Raw [sexo=1, clase=52, si=13700, no=499061, siUsado=13700, noUsado=499061]
+Raw [sexo=2, clase=50, si=7785, no=321928, siUsado=7785, noUsado=321928]
+Raw [sexo=2, clase=51, si=5178, no=329580, siUsado=5178, noUsado=329580]
+Raw [sexo=2, clase=52, si=9821, no=554355, siUsado=9821, noUsado=554355]
+

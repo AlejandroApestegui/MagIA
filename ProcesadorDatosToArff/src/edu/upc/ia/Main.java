@@ -7,12 +7,13 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Main {
 
 	public static List<Tabla> tablas = new ArrayList<Tabla>();
-	public static boolean mostrarFrecuencia = false;
+	public static boolean mostrarFrecuencia = true;
 
 	public static void main(String[] args) throws IOException {
 
@@ -242,6 +243,7 @@ public class Main {
 		System.out.println("ENCUESTAS PROCESADAS => " + filasProcesadas.size());
 
 		if (mostrarFrecuencia) {
+			
 			System.out.println("");
 			System.out.println("");
 			System.out.println("");
@@ -338,7 +340,12 @@ public class Main {
 					+ filasProcesadas.stream().filter(x -> x.Municipio == 52).collect(Collectors.toList()).size());
 		}
 
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		
 		System.out.println("LOG DATOS CONSUMIDOS => ");
+		
 		System.out.println("");
 		for (Tabla tt : tablas) {
 			System.out.println(tt);
@@ -346,6 +353,8 @@ public class Main {
 
 		Path path = Paths.get(System.getProperty("user.dir") + "/data_ulcera.arff");
 
+		System.out.println(System.getProperty("user.dir") + "/data_ulcera.arff");
+		
 		try (BufferedWriter writer = Files.newBufferedWriter(path)) {
 
 			writer.write("@relation ulcera" + System.lineSeparator());
@@ -363,6 +372,9 @@ public class Main {
 			}
 
 		}
+		
+		Scanner scanner = new Scanner(System.in); 
+		scanner.nextLine();
 
 	}
 

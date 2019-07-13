@@ -1,0 +1,10 @@
+@RELATION RapidMinerData
+@ATTRIBUTE 'edad' {'12','13','14','15','16','17','18','10','11'}
+@ATTRIBUTE 'estudios' {'20','21','23','22'}
+@ATTRIBUTE 'claseSocial' {'30','31','32','33','34','35','36','37'}
+@ATTRIBUTE 'trabajo' {'40','41','42'}
+@ATTRIBUTE 'municipio' {'50','51','52'}
+@ATTRIBUTE 'sexo' {'1','2'}
+@ATTRIBUTE 'class' {'1','2'}
+@data
+'14' '23' '30' '40' '52' '1' ?
